@@ -1,0 +1,102 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #000;
+}
+#container{
+    width: 1000px;
+    height: 700px;
+    background-color: rgba(170, 238, 252, 0.582);
+    margin: 50px auto;
+    align-items: center;
+    /* border-radius: 100px; */
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: #fafcfd;
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 3px 16px 4px rgb(0 0 0 / 15%), 0 6px 20px 0 rgb(0 0 0 / 36%);
+
+}
+#result{
+    height: 120px;
+    background-color: #c1f8f1;
+    border-radius: 8px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(101, 122, 141);
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+
+#keyboard{
+    height: 400px;
+    /* background-color: rgb(92, 226, 125); */
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.number, .empty{
+    background-color: #d5e6f1;
+}
+.number, .operator{
+    cursor: pointer;
+    
+}
+.operator:active, .number:active{
+    font-size: 15px;
+    /* box-shadow: inset 0px 0px 11px 0px #8cc6ea, inset 0 6px 20px 0 rgb(176 252 255 / 30%); */
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: rgb(94, 209, 194);
+    color: rgb(248, 247, 247);
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(88, 177, 130);
+    color: rgb(248, 247, 247);
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(120, 151, 69);
+    color: rgb(248, 247, 247);
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(163, 76, 163);
+    color: rgb(248, 247, 247);
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(68, 148, 167);
+    color: rgb(248, 247, 247);
+ 
+
+
+
