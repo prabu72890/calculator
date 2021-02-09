@@ -13,17 +13,17 @@ body{
 #calculator{
     width: 320px;
     height: 520px;
-    background-color: #fafcfd;
+    background-color: #fafcfdd2;
     margin: 0 auto;
-    top: 50px;
+    top: -500px;
     position: relative;
     border-radius: 8px;
     box-shadow: 0px 3px 16px 4px rgb(0 0 0 / 15%), 0 6px 20px 0 rgb(0 0 0 / 36%);
-
+    z-index: 0;
 }
 #result{
     height: 120px;
-    background-color: #c1f8f1;
+    background-color: #c1f8f1c4;
     border-radius: 8px;
 }
 
@@ -67,7 +67,7 @@ body{
 }
 .operator:active, .number:active{
     font-size: 15px;
-    /* box-shadow: inset 0px 0px 11px 0px #8cc6ea, inset 0 6px 20px 0 rgb(176 252 255 / 30%); */
+    
 }
 .operator:focus, .number:focus, .empty:focus{
     outline: 0;
@@ -97,6 +97,28 @@ button:nth-child(20){
     background-color: rgb(68, 148, 167);
     color: rgb(248, 247, 247);
  
+}
+
+#glass{
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    margin: 50px;
+    box-shadow: 0px 0px 11px 0px #fbfbfc, 0 6px 20px 0 #fafcfd;
+}
+
+#glass2{
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    margin: 10px auto;
+    left: 200px;
+    box-shadow: 0px 0px 11px 0px #fbfbfc, 0 6px 20px 0 #fafcfd;
+}
 
 
 
